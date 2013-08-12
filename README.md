@@ -18,7 +18,9 @@ Array#myBubbleSort
 
 String.prototype
 ----------------
-```String#mySubStrings```
+```
+String#mySubStrings
+```
 
 Recursive
 ----------
