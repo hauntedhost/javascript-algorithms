@@ -1,8 +1,11 @@
 Javascript Algorithms
 =====================
 
+![jasmine screenshot](https://raw.github.com/somlor/javascript-algorithms/master/jasmine-screenshot.png)
+
 Array.prototype
 ---------------
+```
 Array#myEach
 Array#myMap
 Array#inject
@@ -11,13 +14,15 @@ Array#myUnique
 Array#myZeroSums
 Array#myTranspose
 Array#myBubbleSort
+```
 
 String.prototype
 ----------------
-String#mySubStrings
+```String#mySubStrings```
 
 Recursive
 ----------
+```
 #factorial(n)
 #fibs(n)
 #range(start, end)
@@ -26,3 +31,4 @@ Recursive
 #bsearch(arr, target)
 #mergeSort(arr)
 #merge(left, right)
+```
