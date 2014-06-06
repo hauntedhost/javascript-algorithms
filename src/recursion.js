@@ -58,11 +58,11 @@ function arraySum(arr) { // [1, 1, 1]
 console.log(arraySum([1, 2, 3]));
 
 // recursive exponents v1
-function exp(base, power) { 
+function exp(base, power) {
   if (power === 0) {
     return 1;
   } else {
-    return base * exp(base, power - 1); 
+    return base * exp(base, power - 1);
   }
 }
 
@@ -93,7 +93,7 @@ function bsearch(arr, target) {
   }
 }
 
-arr = [1, 3, 5, 6, 7, 9, 12, 90];
+var arr = [1, 3, 5, 6, 7, 9, 12, 90];
 console.log(arr);
 console.log(bsearch(arr, 90));
 
@@ -108,18 +108,6 @@ function mergeSort(arr) {
   }
 
   return merge(mergeSort(left), mergeSort(right));
-
-  // if (arr.length <= 1) {
-  //   console.log("sorted");
-  //   return arr;
-  // } else {
-  //   var midIndex = parseInt(arr.length / 2);
-  //   var left = arr.slice(0, midIndex);
-  //   var right = arr.slice(midIndex, arr.length);
-  //   console.log("left: " + left);
-  //   console.log("right: " + right);
-  //   return merge(mergeSort(left), mergeSort(right))
-  // }
 }
 
 function merge(left, right) {
@@ -147,4 +135,3 @@ function merge(left, right) {
 var a = [34, 203, 3, 746, 200, 984, 198, 764, 9];
 console.log(a);
 console.log(mergeSort(a));
-
